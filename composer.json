@@ -1,0 +1,24 @@
+{
+	"name": "brosland/identity",
+	"type": "nette-addon",
+	"keywords": ["nette", "doctrine", "orm", "security", "identity", "authentication"],
+	"license": ["MIT"],
+	"description": "Integration of Doctrine entities implementing IIdentity in Nette. Forked Majkl578/nette-identity-doctrine.",
+	"authors": [
+		{
+			"name": "Martin Bros"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Brosland\\Identity\\": ["src/Brosland/Identity"]
+		}
+	},
+	"require": {
+		"php": ">= 5.6",
+		"doctrine/orm": "^2.6",
+		"nette/di": "^2.4",
+		"nette/http": "^2.4",
+		"nette/security": "^2.4"
+	}
+}
